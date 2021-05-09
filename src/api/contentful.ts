@@ -7,8 +7,7 @@ import {
 import { getProductSlug } from '../util/product';
 import transformLayout from './transformLayout';
 
-const environment =
-  process.env.NEXT_PUBLIC_STRIPE_ENV === 'test' ? 'test' : 'master';
+const environment = process.env.CONTENTFUL_ENVIRONMENT;
 const accessToken = process.env.CONTENTFUL_ACCESS_TOKEN;
 const space = process.env.CONTENTFUL_SPACE_ID;
 const client = createClient({

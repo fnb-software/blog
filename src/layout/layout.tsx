@@ -79,10 +79,10 @@ const SiteLayout = ({ children, layout, page, product, pageTitle }: Props) => {
             </Row>
           </Content>
           <Footer className={styles.footer}>
-            © Oriane Bernard {new Date().getFullYear()}. Tous droits réservés.{' '}
-            <Tooltip title="Makramonde n'utilise et ne collecte que les cookies et données personelles nécessaires aux traitement des achats.">
+            © FnB Software Consulting {new Date().getFullYear()}.{' '}
+            <Tooltip title="No personal data is collected">
               <i>
-                RGPD <QuestionCircleOutlined />
+                GDPR <QuestionCircleOutlined />
               </i>
             </Tooltip>
           </Footer>

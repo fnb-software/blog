@@ -26,13 +26,13 @@ const Home = ({ page, layout }: Props) => {
         jsonld={{
           '@type': 'WebSite',
           url: config.siteUrl,
-          inLanguage: 'fr',
+          inLanguage: 'en',
           keywords:
-            'macramé, ecommerce, bijou, unique, métal, art, pierres, création, atelier, makramonde',
+            'web, engineering, development, developer, fnb, company, software, consulting, blog, react, webpack, nextjs',
           description: config.description,
           image: `${config.siteUrl}/images/makramonde-bijou.png`,
           name: config.title,
-          alternateName: `Makramonde | Ecommerce macramé`,
+          alternateName: `fnb | web engineering`,
         }}
       />
       <SiteLayout layout={layout} page={page}>
