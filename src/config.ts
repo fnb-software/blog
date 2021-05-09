@@ -1,6 +1,6 @@
 export default {
-  title: `Makramonde | Bijoux uniques en macramé`,
-  description: `Aux couleurs du macramé, j'allie l’élégance du métal et de pierres fines. Venez découvrir les dernières créations issues de mon atelier "Makramonde".`,
-  author: `Oriane`,
+  title: `fnb | web engineering blog`,
+  description: `blog where I write my thoughts around web engineering`,
+  author: `Flo`,
   siteUrl: process.env.URL || 'http://localhost:3000',
 };
