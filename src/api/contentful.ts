@@ -12,7 +12,7 @@ const environment =
 const accessToken = process.env.CONTENTFUL_ACCESS_TOKEN;
 const space = process.env.CONTENTFUL_SPACE_ID;
 const client = createClient({
-  space,
+  space: space as string,
   accessToken: accessToken as string,
   environment,
 });
